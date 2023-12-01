@@ -31,17 +31,17 @@ The core project containing NServiceBus package references.
 
 #### Note
 - `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>`
-- `SqlPersistenceSettings.cs` is <b>commented-out<b/>
+- `SqlPersistenceSettings.cs` is **commented-out**
 
 ### HasDirectReferenceToReceiver
 The project with a direct reference to `Receiver.csproj`
 
 #### Note
-- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is <b>commented-out</b>
+- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is **commented-out**
 
 ### HasTransitiveReferenceToReceiver
 The project with a transitive reference to `Receiver.csproj` via `HasDirectReferenceToReceiver.csproj`
 
 #### Note
-- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is <b>commented-out</b>
+- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is **commented-out**
 
