@@ -30,18 +30,18 @@ SQL script generation does not happen when building a project with either direct
 The core project containing NServiceBus package references.
 
 #### Note
-- <SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>
-- SqlPersistenceSettings.cs is <b>commented-out<b/>
+- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>`
+- `SqlPersistenceSettings.cs` is <b>commented-out<b/>
 
 ### HasDirectReferenceToReceiver
 The project with a direct reference to `Receiver.csproj`
 
 #### Note
-- <SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts> is <b>commented-out</b>
+- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is <b>commented-out</b>
 
 ### HasTransitiveReferenceToReceiver
 The project with a transitive reference to `Receiver.csproj` via `HasDirectReferenceToReceiver.csproj`
 
 #### Note
-- <SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts> is <b>commented-out</b>
+- `<SqlPersistenceGenerateScripts>false</SqlPersistenceGenerateScripts>` is <b>commented-out</b>
 
